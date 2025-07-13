@@ -6,7 +6,7 @@ export default function Header() {
       <header className="w-full">
         <div className="flex flex-row justify-between items-center p-3.5">
           <div>
-            <img className="w-[150px]" src={Logo} alt="rdev" />
+            <img className="max-w-[150px]" src={Logo} alt="rdev" />
           </div>
           <nav>
             <ul className="flex flex-row gap-20 text-white">
