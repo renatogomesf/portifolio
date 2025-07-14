@@ -5,13 +5,8 @@
   --font-qwitcher: "Qwitcher Grypen", cursive;
 }
 
-/* font-family: "Qwitcher Grypen", cursive; */
-
 body {
   font-family: "Urbanist", sans-serif;
   box-sizing: border-box;
   flex: 1;
-  /* background-image: url(../src/assets/fundo2.jpg); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
 }

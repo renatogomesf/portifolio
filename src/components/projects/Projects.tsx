@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <>
       <section>
-        <div className="text-white mt-20 pb-20">
+        <div className="text-white mt-20 pb-30">
           <h2 className="text-[5rem] font-black text-[#4FE3AD]">
             Meus Projetos
           </h2>
@@ -152,6 +152,9 @@ export default function Projects() {
           </div>
 
           <div className="max-w-[800px] m-auto mt-40">
+            <h3 className="text-[2rem] font-black text-[#93FA21] mb-1">
+              Tem Mais Projetos...
+            </h3>
             <Slide />
           </div>
         </div>
