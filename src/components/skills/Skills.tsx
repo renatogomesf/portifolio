@@ -1,4 +1,4 @@
-import { skillsFront, skillsBack, skillsOutros } from "./Utils";
+import { skillsFront, skillsBack, skillsOutros } from "./SvgSkill";
 
 export default function Skills() {
   return (

@@ -1,4 +1,8 @@
 import Dashboard from "../../assets/projects/julius.png";
+import Ecommerc from "../../assets/projects/digital-store.png";
+import Slide from "./slide/Slide";
+
+import { Window, Code, Api } from "./SvgProject";
 
 export default function Projects() {
   return (
@@ -10,25 +14,131 @@ export default function Projects() {
           </h2>
 
           <div className="flex gap-5 mt-5">
-            <div className="rounded-[10px] overflow-hidden max-w-[600px]">
+            <div className="rounded-[10px] overflow-hidden max-w-[600px] hover:ring-4 hover:ring-[#4FE3AD] hover:rotate-6 cursor-pointer duration-150">
               <img src={Dashboard} alt="" />
             </div>
             <div>
-              <h3 className="text-[2rem] font-black text-[#fff]">Julis</h3>
-              <p>Dashboard de controle financeiro.</p>
+              <h3 className="text-[2rem] font-black text-[#93FA21]">Julius</h3>
+              <p className="text-[1.5rem] font-extralight">
+                Dashboard de controle financeiro.
+              </p>
 
               <div className="flex gap-5 mt-5">
-                <p>Next.js</p>
-                <p>Tailwind</p>
-                <p>TypeScript</p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  Next.js
+                </p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  Tailwind
+                </p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  TypeScript
+                </p>
               </div>
 
               <div className="flex gap-5 mt-5">
-                <a href="">Ver Projeto</a>
-                <a href="">Ver Código</a>
-                <a href="">Ver API</a>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  Node
+                </p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  Express
+                </p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  MySQL
+                </p>
+              </div>
+
+              <div className="flex gap-10 mt-8">
+                <a
+                  className="flex text-nowrap items-center gap-2 hover:text-[#4FE3AD] hover:ring-4 hover:ring-[#4FE3AD] duration-200 p-1 rounded-[5px]"
+                  href=""
+                >
+                  Ver Projeto
+                  <Window />
+                </a>
+
+                <a
+                  className="flex text-nowrap items-center gap-2 hover:text-[#4FE3AD] hover:ring-4 hover:ring-[#4FE3AD] duration-200 p-1 rounded-[5px]"
+                  href=""
+                >
+                  Ver Código
+                  <Code />
+                </a>
+                <a
+                  className="flex text-nowrap items-center gap-2 hover:text-[#4FE3AD] hover:ring-4 hover:ring-[#4FE3AD] duration-200 p-1 rounded-[5px]"
+                  href=""
+                >
+                  Ver API
+                  <Api className={"fill-[#fff] w-[30px]"} />
+                </a>
               </div>
             </div>
+          </div>
+
+          <div className="flex flex-row-reverse gap-5 mt-20">
+            <div className="rounded-[10px] overflow-hidden max-w-[600px] hover:ring-4 hover:ring-[#4FE3AD] hover:rotate-6 cursor-pointer duration-150">
+              <img src={Ecommerc} alt="" />
+            </div>
+            <div className="text-end">
+              <h3 className="text-[2rem] font-black text-[#93FA21]">
+                Digital Store
+              </h3>
+              <p className="text-[1.5rem] font-extralight">
+                E-commerce de sapatos, roupas e acessórios.
+              </p>
+
+              <div className="flex justify-end gap-5 mt-5">
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  React.js
+                </p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  Styled Components
+                </p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  JavaScript
+                </p>
+              </div>
+
+              <div className="flex justify-end gap-5 mt-5">
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  Node
+                </p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  Express
+                </p>
+                <p className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px]">
+                  MySQL
+                </p>
+              </div>
+
+              <div className="flex justify-end gap-10 mt-8">
+                <a
+                  className="flex text-nowrap items-center gap-2 hover:text-[#4FE3AD] hover:ring-4 hover:ring-[#4FE3AD] duration-200 p-1 rounded-[5px]"
+                  href=""
+                >
+                  Ver Projeto
+                  <Window />
+                </a>
+
+                <a
+                  className="flex text-nowrap items-center gap-2 hover:text-[#4FE3AD] hover:ring-4 hover:ring-[#4FE3AD] duration-200 p-1 rounded-[5px]"
+                  href=""
+                >
+                  Ver Código
+                  <Code />
+                </a>
+                <a
+                  className="flex text-nowrap items-center gap-2 hover:text-[#4FE3AD] hover:ring-4 hover:ring-[#4FE3AD] duration-200 p-1 rounded-[5px]"
+                  href=""
+                >
+                  Ver API
+                  <Api className={"fill-[#fff] w-[30px]"} />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-[700px] m-auto mt-40">
+            <Slide />
           </div>
         </div>
       </section>
