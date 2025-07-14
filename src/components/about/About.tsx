@@ -1,3 +1,5 @@
+import Curriculo from "./pdf/RENATO GOMES.pdf";
+
 export default function About() {
   return (
     <>
@@ -52,10 +54,11 @@ export default function About() {
           </p>
           <div className="mt-12 mb-30 font-semibold">
             <a
-              className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px] items-center w-fit inline-block"
-              href=""
+              className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px] items-center w-fit inline-block hover:text-white hover:ring-2 duration-150"
+              href={Curriculo}
+              target="_blank"
             >
-              Download CV
+              Ver CV
               <svg
                 className="w-[25px] inline-block ml-2"
                 viewBox="0 0 24 24"
@@ -81,10 +84,11 @@ export default function About() {
               </svg>
             </a>
             <a
-              className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px] ml-8 items-center w-fit inline-block"
-              href=""
+              className="bg-[#2E4757] text-[#93FA21] p-2.5 rounded-[5px] ml-8 items-center w-fit inline-block hover:text-white hover:ring-2 duration-150"
+              href={Curriculo}
+              download={"RENATO GOMES.pdf"}
             >
-              Ver CV
+              Download CV
               <svg
                 className="w-[25px] inline-block ml-2"
                 viewBox="0 0 24 24"

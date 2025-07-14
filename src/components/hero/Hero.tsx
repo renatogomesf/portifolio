@@ -12,10 +12,18 @@ export default function Hero() {
           </h1>
 
           <div className="flex flex-row gap-10 mt-10">
-            <div className="flex flex-col justify-center items-center">
-              <div className=" w-[40px]">
-                <svg viewBox="0 0 128 128">
-                  <g fill="#93FA21">
+            <a
+              className="flex flex-col justify-center items-center"
+              href="https://github.com/renatogomesf"
+              target="_blank"
+            >
+              <div>
+                <svg
+                  className=" w-[40px] hover:fill-[#fff] duration-150"
+                  viewBox="0 0 128 128"
+                  fill="#4FE3AD"
+                >
+                  <g>
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -25,52 +33,23 @@ export default function Hero() {
                   </g>
                 </svg>
               </div>
-              <p className="text-[#fff]">Github</p>
-            </div>
+            </a>
 
-            <div className="flex flex-col justify-center items-center">
-              <div className=" w-[40px]">
-                <svg fill="#93FA21" viewBox="0 0 128 128">
+            <a
+              className="flex flex-col justify-center items-center"
+              href="https://www.linkedin.com/in/renato-gomes-22b759236/"
+              target="_blank"
+            >
+              <div>
+                <svg
+                  className=" w-[40px] hover:fill-[#fff] duration-150"
+                  fill="#4FE3AD"
+                  viewBox="0 0 128 128"
+                >
                   <path d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"></path>
                 </svg>
               </div>
-
-              <p className="text-[#fff]">Linkedin</p>
-            </div>
-
-            <div className="flex flex-col justify-center items-center">
-              <div className=" w-[40px] h-[40px]">
-                <svg
-                  viewBox="2 2 20 22"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></g>
-                  <g id="SVGRepo_iconCarrier">
-                    {" "}
-                    <path
-                      d="M4 9.00005L10.2 13.65C11.2667 14.45 12.7333 14.45 13.8 13.65L20 9"
-                      stroke="#93FA21"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>{" "}
-                    <path
-                      d="M3 9.17681C3 8.45047 3.39378 7.78123 4.02871 7.42849L11.0287 3.5396C11.6328 3.20402 12.3672 3.20402 12.9713 3.5396L19.9713 7.42849C20.6062 7.78123 21 8.45047 21 9.17681V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17V9.17681Z"
-                      stroke="#93FA21"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    ></path>{" "}
-                  </g>
-                </svg>
-              </div>
-              <p className="text-[#fff]">Email</p>
-            </div>
+            </a>
           </div>
 
           <div className="w-full flex flex-col justify-center items-center mt-5">
