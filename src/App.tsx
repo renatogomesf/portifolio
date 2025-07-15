@@ -19,7 +19,7 @@ function App() {
 
         <Skills />
 
-        <div className="bg-[url(../src/assets/fundo2.jpg)] min-md:bg-no-repeat min-md:bg-cover">
+        <div className="bg-[url(../src/assets/fundo2.jpg)] min-[1024px]:bg-no-repeat min-[1024px]:bg-cover">
           <div className="p-2.5 max-w-[1150px] m-auto">
             <Projects />
           </div>
