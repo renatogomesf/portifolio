@@ -1,10 +1,9 @@
+// Import Swiper styles
+import "swiper/swiper-bundle.css";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards, Autoplay } from "swiper/modules";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-cards";
 
 import PORTIFOLIO_V2 from "../../../assets/projects/portifolio v2.png";
 import FORM_MONGODB from "../../../assets/projects/formulario-mongodb.png";
