@@ -160,11 +160,13 @@ export default function Projects() {
                   className="flex items-center justify-center mt-20"
                 >
                   <div className="group max-w-[800px]">
-                    <img
-                      className="bg-cover rounded-[10px]"
-                      src={item.img}
-                      alt={item.titulo}
-                    />
+                    <a href={item.link_projeto} target="_blank">
+                      <img
+                        className="bg-cover rounded-[10px]"
+                        src={item.img}
+                        alt={item.titulo}
+                      />
+                    </a>
                     <div className="">
                       <div className=" ">
                         <h3 className="text-[2rem] font-black text-[#93FA21]">

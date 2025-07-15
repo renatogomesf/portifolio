@@ -8,7 +8,7 @@ export default function About() {
           <h2 className="text-[5rem] font-black text-[#4FE3AD] max-md:text-[3rem]">
             Sobre Mim
           </h2>
-          <p className="text-[1.5rem] w-[70%] font-extralight ">
+          <p className="text-[1.5rem] w-[70%] max-md:w-[100%] font-extralight ">
             Oi! Sou Renato Gomes, Desenvolvedor Full Stack, com quase 2 anos de
             estudos na área. Fui aluno da{" "}
             <a
@@ -48,7 +48,7 @@ export default function About() {
             </a>{" "}
             e curso Engenharia de Software na União das Américas Descomplica.
           </p>
-          <p className="text-[1.5rem] w-[70%] mt-2.5 font-extralight">
+          <p className="text-[1.5rem] w-[70%] max-md:w-[100%] mt-2.5 font-extralight">
             Tenho experiência com React.js, Node.js, MySQL, Jest, entre outras
             tecnologias, adquirida em projetos pessoais. Estou em constante
             aprendizado e pronto para contribuir com equipes que valorizem

@@ -13,7 +13,7 @@ export default function Skills() {
           <div className="flex flex-wrap mt-[20px] max-md:justify-center">
             {skillsFront.map((item: any) => {
               return (
-                <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad18] group hover:bg-[#4fe3ad86] duration-150">
+                <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad31] group hover:bg-[#4fe3ad86] duration-150">
                   {item.svg}{" "}
                   <p className="text-[#93FA21] mt-6 group-hover:text-white">
                     {item.name}
@@ -29,7 +29,7 @@ export default function Skills() {
           <div className="flex flex-wrap mt-[20px] max-md:justify-center">
             {skillsBack.map((item: any) => {
               return (
-                <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad18] group hover:bg-[#4fe3ad86] duration-150">
+                <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad31] group hover:bg-[#4fe3ad86] duration-150">
                   {item.svg}{" "}
                   <p className="text-[#93FA21] mt-6 group-hover:text-white">
                     {item.name}
@@ -45,7 +45,7 @@ export default function Skills() {
           <div className="flex flex-wrap mt-[20px] max-md:justify-center">
             {skillsOutros.map((item: any) => {
               return (
-                <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad18] group hover:bg-[#4fe3ad86] duration-150">
+                <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad31] group hover:bg-[#4fe3ad86] duration-150">
                   {item.svg}{" "}
                   <p className="text-[#93FA21] mt-6 group-hover:text-white">
                     {item.name}
