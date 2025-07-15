@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="">
         <div className="bg-[url(../src/assets/fundo2.jpg)]">
-          <div className="p-2.5 max-w-[1150px] m-auto">
+          <div className="p-2.5 max-w-[1150px] m-auto ">
             <Header />
             <Hero />
             <About />
