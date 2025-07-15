@@ -10,7 +10,7 @@ export default function Skills() {
           </h2>
 
           <h3 className="text-[2rem] font-black text-[#fff]">Front-End</h3>
-          <div className="flex flex-wrap mt-[20px] justify-center">
+          <div className="flex flex-wrap mt-[20px] max-md:justify-center">
             {skillsFront.map((item: any) => {
               return (
                 <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad18] group hover:bg-[#4fe3ad86] duration-150">
@@ -26,7 +26,7 @@ export default function Skills() {
           <h3 className="text-[2rem] font-black text-[#fff] mt-[70px]">
             Back-End
           </h3>
-          <div className="flex flex-wrap mt-[20px] justify-center">
+          <div className="flex flex-wrap mt-[20px] max-md:justify-center">
             {skillsBack.map((item: any) => {
               return (
                 <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad18] group hover:bg-[#4fe3ad86] duration-150">
@@ -42,7 +42,7 @@ export default function Skills() {
           <h3 className="text-[2rem] font-black text-[#fff] mt-[70px]">
             Outros
           </h3>
-          <div className="flex flex-wrap mt-[20px] justify-center">
+          <div className="flex flex-wrap mt-[20px] max-md:justify-center">
             {skillsOutros.map((item: any) => {
               return (
                 <div className="flex flex-col items-center justify-center w-[230px] h-[230px] border-1 border-[#4fe3ad18] group hover:bg-[#4fe3ad86] duration-150">

@@ -1,7 +1,7 @@
 export default function Form() {
   return (
     <>
-      <div className="flex flex-col gap-5 w-[400px] max-md:max-w-[400px]">
+      <div className="flex flex-col gap-5 w-[400px] max-md:w-full max-md:max-w-[400px]">
         <input
           className="bg-[#333438] p-2 rounded-[5px] outline-0 focus:ring-2"
           type="text"
