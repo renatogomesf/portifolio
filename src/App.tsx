@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="">
-        <div className="bg-[url(../src/assets/fundo3.jpg)] bg-no-repeat bg-cover">
+        <div className="bg-[url(../src/assets/fundo.jpg)] bg-no-repeat bg-cover">
           <div className="p-2.5 max-w-[1150px] m-auto ">
             <Header />
             <Hero />
@@ -19,7 +19,7 @@ function App() {
 
         <Skills />
 
-        <div className="bg-[url(../src/assets/fundo3.jpg)] bg-no-repeat bg-cover">
+        <div className="bg-[url(../src/assets/fundo.jpg)] bg-no-repeat bg-cover">
           <div className="p-2.5 max-w-[1150px] m-auto">
             <Projects />
           </div>
