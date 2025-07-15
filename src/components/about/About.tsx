@@ -5,8 +5,10 @@ export default function About() {
     <>
       <section>
         <div className="text-white mt-20 pb-5">
-          <h2 className="text-[5rem] font-black text-[#4FE3AD]">Sobre Mim</h2>
-          <p className="text-[1.5rem] w-[70%] font-extralight">
+          <h2 className="text-[5rem] font-black text-[#4FE3AD] max-md:text-[3rem]">
+            Sobre Mim
+          </h2>
+          <p className="text-[1.5rem] w-[70%] font-extralight ">
             Oi! Sou Renato Gomes, Desenvolvedor Full Stack, com quase 2 anos de
             estudos na área. Fui aluno da{" "}
             <a

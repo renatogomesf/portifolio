@@ -8,14 +8,14 @@ export default function Header() {
           <div>
             <img className="max-w-[150px]" src={Logo} alt="rdev" />
           </div>
-          <nav>
+          {/* <nav>
             <ul className="flex flex-row gap-20 text-white">
               <li>Home</li>
               <li>Sobre</li>
               <li>habilidade</li>
               <li>contato</li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </header>
     </>

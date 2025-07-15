@@ -3,9 +3,9 @@ export default function Hero() {
     <>
       <section>
         <div className="text-white pt-18">
-          <h1 className="text-[7rem] font-black leading-[120px] max-md:text-[3rem] max-md:leading-[70px]">
+          <h1 className="text-[7rem] max-lg:text-[5rem] font-black leading-[120px] max-md:text-[3rem] max-md:leading-[70px]">
             Oi, <br /> Eu sou{" "}
-            <span className="font-qwitcher font-light text-[#93FA21] text-[10rem] max-md:text-[5rem]">
+            <span className="font-qwitcher font-light text-[#93FA21] text-[10rem] max-md:text-[3rem]">
               Renato Gomes
             </span>{" "}
             <br /> Front-end developer

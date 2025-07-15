@@ -6,13 +6,13 @@ export default function Footer() {
     <>
       <footer className="bg-[#000105] pt-20 pb-30 px-2.5">
         <div className="text-white max-w-[1150px] m-auto">
-          <div className="flex items-center justify-center w-[60%] h-[120px] m-auto bg-[#93FA21] -mt-[120px] rounded-2xl">
+          <div className="flex items-center justify-center w-[60%] p-4 max-md:w-[80%] h-[120px] m-auto bg-[#93FA21] -mt-[120px] rounded-2xl">
             <p className="text-[#000105] text-[1.5rem] font-medium">
               Vamos nos conectar e trabalhar juntos.
             </p>
           </div>
 
-          <div className="mt-20 flex justify-between">
+          <div className="mt-20 flex justify-between max-md:flex-col max-md:gap-10">
             <div>
               <img className="w-[150px]" src={Logo} alt="" />
               <p className="text-[#fff] text-[1.5rem] font-normal mt-5">
