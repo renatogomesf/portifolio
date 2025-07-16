@@ -3,7 +3,7 @@ import { skillsFront, skillsBack, skillsOutros } from "./SvgSkill";
 export default function Skills() {
   return (
     <>
-      <section className="bg-[#000105] pt-20 pb-30 px-2.5">
+      <section id="sec03" className="section bg-[#000105] pt-20 pb-30 px-2.5">
         <div className="text-white max-w-[1150px] m-auto">
           <h2 className="text-[5rem] font-black text-[#4FE3AD] max-md:text-[3rem]">
             Minhas Habilidades

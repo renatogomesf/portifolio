@@ -5,6 +5,10 @@
   --font-qwitcher: "Qwitcher Grypen", cursive;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Urbanist", sans-serif;
   box-sizing: border-box;

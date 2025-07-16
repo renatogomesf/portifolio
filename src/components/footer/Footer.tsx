@@ -5,7 +5,10 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-[#000105] pt-20 pb-10 px-2.5">
-        <div className="text-white max-w-[1150px] m-auto">
+        <section
+          id="sec05"
+          className="section text-white max-w-[1150px] m-auto scroll-mt-[100px]"
+        >
           <div className="flex items-center justify-center w-[60%] p-4 max-md:w-[80%] h-[120px] m-auto bg-[#93FA21] -mt-[120px] rounded-2xl">
             <p className="text-[#000105] text-[1.5rem] font-medium">
               Vamos nos conectar e trabalhar juntos.
@@ -62,8 +65,8 @@ export default function Footer() {
               <Form />
             </div>
           </div>
-          <div className="mt-20 text-center">© Renato Gomes</div>
-        </div>
+          <div className="mt-15 text-center">© Renato Gomes</div>
+        </section>
       </footer>
     </>
   );

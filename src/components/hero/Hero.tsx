@@ -1,8 +1,8 @@
 export default function Hero() {
   return (
     <>
-      <section>
-        <div className="text-white pt-18">
+      <section id="sec01" className="section">
+        <div className="text-white pt-40 -mt-7">
           <h1 className="text-[7rem] max-lg:text-[5rem] font-black leading-[120px] max-md:text-[3rem] max-md:leading-[70px]">
             Oi, <br /> Eu sou{" "}
             <span className="font-qwitcher font-light text-[#93FA21] text-[10rem] max-md:text-[3rem]">

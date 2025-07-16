@@ -8,7 +8,7 @@ import { Window, Code, Api } from "./SvgProject";
 export default function Projects() {
   return (
     <>
-      <section>
+      <section id="sec04" className="section scroll-mt-[78px]">
         <div className="text-white mt-20 pb-30">
           <h2 className="text-[5rem] font-black text-[#4FE3AD] max-md:text-[3rem]">
             Meus Projetos

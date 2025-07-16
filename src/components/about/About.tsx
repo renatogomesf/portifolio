@@ -3,7 +3,7 @@ import Curriculo from "./pdf/RENATO GOMES.pdf";
 export default function About() {
   return (
     <>
-      <section>
+      <section id="sec02" className="section scroll-mt-[80px]">
         <div className="text-white mt-20 pb-5">
           <h2 className="text-[5rem] font-black text-[#4FE3AD] max-md:text-[3rem]">
             Sobre Mim
