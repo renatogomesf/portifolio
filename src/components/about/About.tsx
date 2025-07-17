@@ -9,8 +9,8 @@ export default function About() {
             Sobre Mim
           </h2>
           <p className="text-[1.5rem] w-[70%] max-md:w-[100%] font-extralight ">
-            Oi! Sou Renato Gomes, Desenvolvedor Full Stack, com quase 2 anos de
-            estudos na área. Fui aluno da{" "}
+            Oi! Sou Renato Gomes, Desenvolvedor Front-end, com boas noções
+            back-end e com quase 2 anos de estudos na área. Fui aluno da{" "}
             <a
               className="text-[#93FA21] hover:underline"
               href="https://geracaotech.iel-ce.org.br/"
