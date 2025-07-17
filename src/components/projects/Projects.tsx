@@ -23,7 +23,12 @@ export default function Projects() {
               <img src={Dashboard} alt="dashboard" />
             </a>
             <div>
-              <h3 className="text-[2rem] font-black text-[#93FA21]">Julius</h3>
+              <h3 className="text-[2rem] font-black text-[#93FA21]">
+                Julius{" "}
+                <span className="text-[#fff] text-[0.9rem]">
+                  (Em desenvolvimento...)
+                </span>
+              </h3>
               <p className="text-[1.5rem] font-extralight">
                 Dashboard de controle financeiro.
               </p>
@@ -92,7 +97,10 @@ export default function Projects() {
             </a>
             <div className="text-end max-md:text-start">
               <h3 className="text-[2rem] font-black text-[#93FA21]">
-                Digital Store
+                Digital Store{" "}
+                <span className="text-[#fff] text-[0.9rem]">
+                  (Em desenvolvimento...)
+                </span>
               </h3>
               <p className="text-[1.5rem] font-extralight">
                 E-commerce de sapatos, roupas e acessórios.
