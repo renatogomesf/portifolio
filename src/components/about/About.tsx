@@ -46,7 +46,7 @@ export default function About() {
                 </g>
               </svg>
             </a>{" "}
-            e curso Engenharia de Software na União das Américas Descomplica.
+            e <strong className="text-[#93FA21]">Top 25 melhores alunos</strong> e curso Engenharia de Software na União das Américas Descomplica.
           </p>
           <p className="text-[1.5rem] w-[70%] max-md:w-[100%] mt-2.5 font-extralight">
             Tenho experiência com React.js, Node.js, MySQL, Jest, entre outras
